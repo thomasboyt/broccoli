@@ -2,6 +2,10 @@
 
 [![Build Status](https://travis-ci.org/joliss/broccoli.png?branch=master)](https://travis-ci.org/joliss/broccoli)
 
+*Note April 7, 2014: There was a recent <strong>data loss</strong> issue on OS X in
+Broccoli and several plugins. [Check to see if you're
+affected.](https://github.com/joliss/broccoli/blob/master/docs/hardlink-issue.md)*
+
 A fast, reliable asset pipeline, supporting constant-time rebuilds and compact
 build definitions. Comparable to the Rails asset pipeline in scope, though it
 runs on Node and is backend-agnostic. For background and architecture, see the
@@ -17,7 +21,7 @@ Windows is not yet supported.
 ## Installation
 
 ```bash
-npm install --save broccoli
+npm install --save-dev broccoli
 npm install --global broccoli-cli
 ```
 
@@ -66,6 +70,8 @@ Broccoli plugin.
 * [broccoli-dust](https://github.com/sindresorhus/broccoli-dust)
 * [broccoli-strip-json-comments](https://github.com/sindresorhus/broccoli-strip-json-comments)
 * [broccoli-es6-transpiler](https://github.com/sindresorhus/broccoli-es6-transpiler)
+* [broccoli-ember-script](https://github.com/aradabaugh/broccoli-ember-script)
+* [broccoli-bower](https://github.com/joliss/broccoli-bower)
 
 More plugins may be found under the [broccoli-plugin
 keyword](https://www.npmjs.org/browse/keyword/broccoli-plugin) on npm.
@@ -80,7 +86,7 @@ keyword](https://www.npmjs.org/browse/keyword/broccoli-plugin) on npm.
 Shared code for writing plugins.
 
 * [broccoli-filter](https://github.com/joliss/broccoli-filter)
-* [broccoli-transform](https://github.com/joliss/broccoli-transform)
+* [broccoli-writer](https://github.com/joliss/broccoli-writer)
 * [broccoli-env](https://github.com/joliss/broccoli-env)
 * [node-quick-temp](https://github.com/joliss/node-quick-temp)
 
